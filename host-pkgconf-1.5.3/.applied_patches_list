@@ -1,0 +1,2 @@
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/pkgconf/0001-Only-prefix-with-the-sysroot-a-subset-of-variables.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/pkgconf/0002-Revert-main-assume-modversion-insted-of-version-if-o.patch

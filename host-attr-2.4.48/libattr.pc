@@ -1,0 +1,10 @@
+prefix=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name:		libattr
+Description:	A library for filesystem extended attribute support
+Version:	2.4.48
+Cflags:		-I${includedir}
+Libs:		-L${libdir} -lattr

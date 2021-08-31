@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/buildroot-fs/squashfs/target
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/makedevs -d /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/buildroot-fs/full_devices_table.txt /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/buildroot-fs/squashfs/target
+   
+   	/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mksquashfs /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/buildroot-fs/squashfs/target /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/images/rootfs.squashfs -noappend -processors 3 -comp xz

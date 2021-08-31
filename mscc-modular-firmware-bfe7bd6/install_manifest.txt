@@ -1,0 +1,2 @@
+/usr/bin/stage2-loader
+/usr/bin/stage2-secure-loader

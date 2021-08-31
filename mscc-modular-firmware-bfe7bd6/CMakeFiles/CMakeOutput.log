@@ -1,0 +1,661 @@
+The target system is: Buildroot - 1 - mipsel
+The host system is: Linux - 4.15.0-154-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os;-static
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os;-static;-static
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1ef4/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d1ef4.dir/build.make CMakeFiles/cmTC_d1ef4.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1ef4.dir/testCCompiler.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG   -o CMakeFiles/cmTC_d1ef4.dir/testCCompiler.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d1ef4
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1ef4.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_d1ef4.dir/testCCompiler.c.o  -o cmTC_d1ef4 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa444/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fa444.dir/build.make CMakeFiles/cmTC_fa444.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG   -o CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fa444
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa444.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG  -static -v -rdynamic CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o  -o cmTC_fa444 
+Using built-in specs.
+COLLECT_GCC=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/mipsel-linux-gcc.br_real
+COLLECT_LTO_WRAPPER=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper
+Target: mipsel-mips32r2-linux-uclibc
+Configured with: ./configure --prefix=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --sysconfdir=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/etc --enable-static --target=mipsel-mips32r2-linux-uclibc --with-sysroot=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpc=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpfr=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-pkgversion='Buildroot 2019.02.7' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --with-arch=mips32r2 --with-abi=32 --with-nan=legacy --enable-languages=c,c++ --with-build-time-tools=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/bin --disable-shared --disable-libgomp
+Thread model: posix
+gcc version 8.3.0 (Buildroot 2019.02.7) 
+COMPILER_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/bin/
+LIBRARY_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=32' '-mnan=legacy' '-msoft-float' '-EL' '-march=mips32r2' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-static' '-D' 'NDEBUG' '-static' '-v' '-rdynamic' '-o' 'cmTC_fa444' '-mllsc' '-mips32r2' '-mno-shared'
+ /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/collect2 -plugin /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/liblto_plugin.so -plugin-opt=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccam1O8j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -EL -mips32r2 -static -static -melf32ltsmip -o cmTC_fa444 /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtbeginT.o -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0 -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtend.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=32' '-mnan=legacy' '-msoft-float' '-EL' '-march=mips32r2' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-static' '-D' 'NDEBUG' '-static' '-v' '-rdynamic' '-o' 'cmTC_fa444' '-mllsc' '-mips32r2' '-mno-shared'
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fa444/fast"]
+  ignore line: [make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fa444.dir/build.make CMakeFiles/cmTC_fa444.dir/build]
+  ignore line: [make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG   -o CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fa444]
+  ignore line: [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa444.dir/link.txt --verbose=1]
+  ignore line: [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG  -static -v -rdynamic CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o  -o cmTC_fa444 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/mipsel-linux-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper]
+  ignore line: [Target: mipsel-mips32r2-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --sysconfdir=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/etc --enable-static --target=mipsel-mips32r2-linux-uclibc --with-sysroot=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpc=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpfr=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-pkgversion='Buildroot 2019.02.7' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --with-arch=mips32r2 --with-abi=32 --with-nan=legacy --enable-languages=c,c++ --with-build-time-tools=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/bin --disable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Buildroot 2019.02.7) ]
+  ignore line: [COMPILER_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=32' '-mnan=legacy' '-msoft-float' '-EL' '-march=mips32r2' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-static' '-D' 'NDEBUG' '-static' '-v' '-rdynamic' '-o' 'cmTC_fa444' '-mllsc' '-mips32r2' '-mno-shared']
+  link line: [ /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/collect2 -plugin /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/liblto_plugin.so -plugin-opt=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccam1O8j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -EL -mips32r2 -static -static -melf32ltsmip -o cmTC_fa444 /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtbeginT.o -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0 -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtend.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccam1O8j.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [--sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32r2] ==> ignore
+    arg [-static] ==> ignore
+    arg [-static] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fa444] ==> ignore
+    arg [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtbeginT.o] ==> ignore
+    arg [-L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0] ==> dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0]
+    arg [-L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc] ==> dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc]
+    arg [-L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib] ==> dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib]
+    arg [-L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib] ==> dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib]
+    arg [-L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib] ==> dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_fa444.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtend.o] ==> ignore
+    arg [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  collapse library dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0] ==> [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0]
+  collapse library dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc] ==> [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc]
+  collapse library dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib] ==> [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/mipsel-mips32r2-linux-uclibc/lib]
+  collapse library dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib] ==> [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib]
+  collapse library dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib] ==> [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0;/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc;/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/mipsel-mips32r2-linux-uclibc/lib;/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib;/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1fa6b/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1fa6b.dir/build.make CMakeFiles/cmTC_1fa6b.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fa6b.dir/feature_tests.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG   -std=c11 -o CMakeFiles/cmTC_1fa6b.dir/feature_tests.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1fa6b
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa6b.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_1fa6b.dir/feature_tests.c.o  -o cmTC_1fa6b 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee004/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ee004.dir/build.make CMakeFiles/cmTC_ee004.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee004.dir/feature_tests.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG   -std=c99 -o CMakeFiles/cmTC_ee004.dir/feature_tests.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ee004
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee004.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_ee004.dir/feature_tests.c.o  -o cmTC_ee004 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83f3b/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_83f3b.dir/build.make CMakeFiles/cmTC_83f3b.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83f3b.dir/feature_tests.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG   -std=c90 -o CMakeFiles/cmTC_83f3b.dir/feature_tests.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.c
+Linking C executable cmTC_83f3b
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83f3b.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_83f3b.dir/feature_tests.c.o  -o cmTC_83f3b 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81b2d/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_81b2d.dir/build.make CMakeFiles/cmTC_81b2d.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81b2d.dir/testCXXCompiler.cxx.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -o CMakeFiles/cmTC_81b2d.dir/testCXXCompiler.cxx.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_81b2d
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81b2d.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_81b2d.dir/testCXXCompiler.cxx.o  -o cmTC_81b2d 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a7d5/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2a7d5.dir/build.make CMakeFiles/cmTC_2a7d5.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -o CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2a7d5
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a7d5.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static -v -rdynamic CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2a7d5 
+Using built-in specs.
+COLLECT_GCC=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/mipsel-linux-g++.br_real
+COLLECT_LTO_WRAPPER=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper
+Target: mipsel-mips32r2-linux-uclibc
+Configured with: ./configure --prefix=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --sysconfdir=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/etc --enable-static --target=mipsel-mips32r2-linux-uclibc --with-sysroot=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpc=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpfr=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-pkgversion='Buildroot 2019.02.7' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --with-arch=mips32r2 --with-abi=32 --with-nan=legacy --enable-languages=c,c++ --with-build-time-tools=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/bin --disable-shared --disable-libgomp
+Thread model: posix
+gcc version 8.3.0 (Buildroot 2019.02.7) 
+COMPILER_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/bin/
+LIBRARY_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mabi=32' '-mnan=legacy' '-msoft-float' '-EL' '-march=mips32r2' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-static' '-static' '-D' 'NDEBUG' '-static' '-v' '-rdynamic' '-o' 'cmTC_2a7d5' '-mllsc' '-mips32r2' '-mno-shared'
+ /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/collect2 -plugin /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/liblto_plugin.so -plugin-opt=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ9CDWx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -EL -mips32r2 -static -static -static -melf32ltsmip -o cmTC_2a7d5 /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtbeginT.o -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0 -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtend.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mabi=32' '-mnan=legacy' '-msoft-float' '-EL' '-march=mips32r2' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-static' '-static' '-D' 'NDEBUG' '-static' '-v' '-rdynamic' '-o' 'cmTC_2a7d5' '-mllsc' '-mips32r2' '-mno-shared'
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2a7d5/fast"]
+  ignore line: [make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2a7d5.dir/build.make CMakeFiles/cmTC_2a7d5.dir/build]
+  ignore line: [make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -o CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2a7d5]
+  ignore line: [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a7d5.dir/link.txt --verbose=1]
+  ignore line: [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static -v -rdynamic CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2a7d5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/mipsel-linux-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper]
+  ignore line: [Target: mipsel-mips32r2-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --sysconfdir=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/etc --enable-static --target=mipsel-mips32r2-linux-uclibc --with-sysroot=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpc=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-mpfr=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host --with-pkgversion='Buildroot 2019.02.7' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --with-arch=mips32r2 --with-abi=32 --with-nan=legacy --enable-languages=c,c++ --with-build-time-tools=/var/tmp/SimpleGrid/bsp/S06eu2/stage/mscc-toolchain-source-2019.02.7-082/mips_uclib_toolchain_defconfig/host/mipsel-mips32r2-linux-uclibc/bin --disable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Buildroot 2019.02.7) ]
+  ignore line: [COMPILER_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/:/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib/:/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mabi=32' '-mnan=legacy' '-msoft-float' '-EL' '-march=mips32r2' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-static' '-static' '-D' 'NDEBUG' '-static' '-v' '-rdynamic' '-o' 'cmTC_2a7d5' '-mllsc' '-mips32r2' '-mno-shared']
+  link line: [ /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/collect2 -plugin /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/liblto_plugin.so -plugin-opt=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ9CDWx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -EL -mips32r2 -static -static -static -melf32ltsmip -o cmTC_2a7d5 /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crti.o /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtbeginT.o -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0 -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc -L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtend.o /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../libexec/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJ9CDWx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [--sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32r2] ==> ignore
+    arg [-static] ==> ignore
+    arg [-static] ==> ignore
+    arg [-static] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2a7d5] ==> ignore
+    arg [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtbeginT.o] ==> ignore
+    arg [-L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0] ==> dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0]
+    arg [-L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc] ==> dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc]
+    arg [-L/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib] ==> dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib]
+    arg [-L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib] ==> dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib]
+    arg [-L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib] ==> dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_2a7d5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/crtend.o] ==> ignore
+    arg [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  collapse library dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0] ==> [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0]
+  collapse library dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc] ==> [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc]
+  collapse library dir [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/bin/../lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0/../../../../mipsel-mips32r2-linux-uclibc/lib] ==> [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/mipsel-mips32r2-linux-uclibc/lib]
+  collapse library dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib] ==> [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib]
+  collapse library dir [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib] ==> [/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc/mipsel-mips32r2-linux-uclibc/8.3.0;/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/lib/gcc;/opt/mscc/mscc-toolchain-bin-2019.02.7-082/mipsel-mips32r2-linux-uclibc/mipsel-mips32r2-linux-uclibc/lib;/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/lib;/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a47f/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8a47f.dir/build.make CMakeFiles/cmTC_8a47f.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a47f.dir/feature_tests.cxx.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -std=c++1z -o CMakeFiles/cmTC_8a47f.dir/feature_tests.cxx.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8a47f
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a47f.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_8a47f.dir/feature_tests.cxx.o  -o cmTC_8a47f 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a354/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5a354.dir/build.make CMakeFiles/cmTC_5a354.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a354.dir/feature_tests.cxx.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -std=c++14 -o CMakeFiles/cmTC_5a354.dir/feature_tests.cxx.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5a354
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a354.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_5a354.dir/feature_tests.cxx.o  -o cmTC_5a354 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_748e3/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_748e3.dir/build.make CMakeFiles/cmTC_748e3.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_748e3.dir/feature_tests.cxx.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -std=c++11 -o CMakeFiles/cmTC_748e3.dir/feature_tests.cxx.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_748e3
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_748e3.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_748e3.dir/feature_tests.cxx.o  -o cmTC_748e3 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb555/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cb555.dir/build.make CMakeFiles/cmTC_cb555.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb555.dir/feature_tests.cxx.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG   -std=c++98 -o CMakeFiles/cmTC_cb555.dir/feature_tests.cxx.o -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cb555
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb555.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-g++ --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -static   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_cb555.dir/feature_tests.cxx.o  -o cmTC_cb555 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_432c3/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_432c3.dir/build.make CMakeFiles/cmTC_432c3.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_432c3.dir/CheckIncludeFile.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -Wall   -DNDEBUG   -o CMakeFiles/cmTC_432c3.dir/CheckIncludeFile.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_432c3
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_432c3.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -Wall   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_432c3.dir/CheckIncludeFile.c.o  -o cmTC_432c3 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14706/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_14706.dir/build.make CMakeFiles/cmTC_14706.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14706.dir/CheckSymbolExists.c.o
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -Wall   -DNDEBUG   -o CMakeFiles/cmTC_14706.dir/CheckSymbolExists.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_14706
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14706.dir/link.txt --verbose=1
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/mipsel-linux-gcc --sysroot=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/mipsel-buildroot-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -static -Wall   -DNDEBUG  -static  -rdynamic CMakeFiles/cmTC_14706.dir/CheckSymbolExists.c.o  -o cmTC_14706 
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp'
+
+File /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/mscc-modular-firmware-bfe7bd6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O2 -w  -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib -Wl,-rpath,/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib -rdynamic CMakeFiles/LIBCURL.dir/curltest.c.o  -o LIBCURL lib/libcmcurl.a -ldl ../cmzlib/libcmzlib.a 

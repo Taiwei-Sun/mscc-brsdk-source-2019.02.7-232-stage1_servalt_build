@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2  -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib -Wl,-rpath,/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib -rdynamic CMakeFiles/cmsysTestsC.dir/cmsysTestsC.c.o CMakeFiles/cmsysTestsC.dir/testEncode.c.o CMakeFiles/cmsysTestsC.dir/testTerminal.c.o  -o cmsysTestsC libcmsys_c.a 

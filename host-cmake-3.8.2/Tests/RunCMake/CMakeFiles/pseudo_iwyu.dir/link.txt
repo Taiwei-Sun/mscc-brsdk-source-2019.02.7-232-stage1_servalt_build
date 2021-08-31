@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2  -L/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib -Wl,-rpath,/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib -rdynamic CMakeFiles/pseudo_iwyu.dir/pseudo_iwyu.c.o  -o pseudo_iwyu 

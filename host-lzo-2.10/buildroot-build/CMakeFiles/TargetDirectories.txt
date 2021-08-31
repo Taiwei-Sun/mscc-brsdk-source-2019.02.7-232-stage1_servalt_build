@@ -1,0 +1,15 @@
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/install/strip.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/install.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/list_install_components.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/edit_cache.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/testmini.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/install/local.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/simple.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/precomp2.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/lzotest.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/lzo_shared_lib.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/overlap.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/dict.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/precomp.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/rebuild_cache.dir
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/lzopack.dir

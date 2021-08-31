@@ -1,0 +1,8 @@
+// Copyright (c) 2016 Microsemi Corporation "Microsemi".
+
+#ifndef __MSCC_MODULAR_FIRMWARE_CONFIG_H__
+#define __MSCC_MODULAR_FIRMWARE_CONFIG_H__
+
+#define MSCC_SIZEOF_VOID_P @CMAKE_SIZEOF_VOID_P@
+
+#endif  // __MSCC_MODULAR_FIRMWARE_CONFIG_H__

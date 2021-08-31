@@ -1,0 +1,13 @@
+#define mscc-modular-firmware_NAME           "mscc-modular-firmware"
+#define mscc-modular-firmware_BRANCH_NAME    "master"
+#define mscc-modular-firmware_VERSION_TAG_STRING "eecea5cb5596db24ae4e9c2c3d9e6f64171b53ea-dirty"
+#define mscc-modular-firmware_VERSION_HASH   "eecea5cb5596db24ae4e9c2c3d9e6f64171b53ea"
+#define mscc-modular-firmware_VERSION1       0
+#define mscc-modular-firmware_VERSION2       0
+#define mscc-modular-firmware_VERSION3       0
+#define mscc-modular-firmware_VERSION        "0.0.0"
+#define mscc-modular-firmware_USER           "root"
+#define mscc-modular-firmware_MACHINE        "perry"
+#define mscc-modular-firmware_BUILD_TIME     "2021-08-31 01:08:34+00:00"
+#define mscc-modular-firmware_BUILD_NUMBER   0
+#define mscc-modular-firmware_BUILD_DIRTY    1

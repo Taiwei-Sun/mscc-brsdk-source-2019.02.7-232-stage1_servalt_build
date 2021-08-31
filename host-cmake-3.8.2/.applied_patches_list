@@ -1,0 +1,2 @@
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/cmake/0001-rename_cmake_rootfile.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/cmake/0002-FindLibUV-Also-check-uv-version-h-for-version-detection.patch

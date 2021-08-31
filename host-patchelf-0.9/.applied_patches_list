@@ -1,0 +1,4 @@
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/patchelf/0001-Remove-apparently-incorrect-usage-of-static.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/patchelf/0002-Extract-a-function-for-splitting-a-colon-separated-s.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/patchelf/0003-Add-option-to-make-the-rpath-relative-under-a-specif.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/patchelf/0004-patchelf-Check-ELF-endianness-before-writing-new-run.patch

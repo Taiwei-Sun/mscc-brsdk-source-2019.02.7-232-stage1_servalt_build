@@ -1,0 +1,3 @@
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/fakeroot/0001-hide-dlsym-error.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/fakeroot/0002-communicate-check-return-status-of-msgrcv.patch
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/package/fakeroot/0003-Select-TCP-when-lack-of-SYSV-IPC.patch

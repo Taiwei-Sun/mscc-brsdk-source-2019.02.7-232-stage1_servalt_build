@@ -1,0 +1,2 @@
+1575895178.0000000000:4063881:0755:f:576,./etc/network/if-pre-up.d/wait_iface
+1630372102.8938101200:2116377:0644:f:77,./etc/network/interfaces

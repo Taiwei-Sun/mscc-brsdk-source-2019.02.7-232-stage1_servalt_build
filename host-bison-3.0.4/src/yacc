@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/bison' -y "$@"

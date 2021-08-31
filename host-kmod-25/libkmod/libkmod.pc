@@ -1,0 +1,11 @@
+prefix=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host
+exec_prefix=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host
+libdir=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/lib
+includedir=/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 25
+Libs: -L${libdir} -lkmod
+Libs.private:  
+Cflags: -I${includedir}

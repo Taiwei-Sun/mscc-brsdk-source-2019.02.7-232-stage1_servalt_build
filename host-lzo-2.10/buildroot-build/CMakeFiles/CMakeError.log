@@ -1,0 +1,333 @@
+Determining size of __int16 failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04201/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04201.dir/build.make CMakeFiles/cmTC_04201.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04201.dir/mfx_SIZEOF___INT16.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include    -o CMakeFiles/cmTC_04201.dir/mfx_SIZEOF___INT16.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c:17:22: error: ‘__int16’ undeclared here (not in a function); did you mean ‘__int16_t’?
+ #define SIZE (sizeof(__int16))
+                      ^
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_04201.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_04201.dir/mfx_SIZEOF___INT16.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_04201.dir/mfx_SIZEOF___INT16.c.o] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04201/fast' failed
+make[2]: *** [cmTC_04201/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89666/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_89666.dir/build.make CMakeFiles/cmTC_89666.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89666.dir/mfx_SIZEOF___INT32.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include    -o CMakeFiles/cmTC_89666.dir/mfx_SIZEOF___INT32.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c:17:22: error: ‘__int32’ undeclared here (not in a function); did you mean ‘__int32_t’?
+ #define SIZE (sizeof(__int32))
+                      ^
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_89666.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_89666.dir/mfx_SIZEOF___INT32.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_89666.dir/mfx_SIZEOF___INT32.c.o] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_89666/fast' failed
+make[2]: *** [cmTC_89666/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fe92/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5fe92.dir/build.make CMakeFiles/cmTC_5fe92.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fe92.dir/mfx_SIZEOF___INT64.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include    -o CMakeFiles/cmTC_5fe92.dir/mfx_SIZEOF___INT64.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_5fe92.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5fe92.dir/mfx_SIZEOF___INT64.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_5fe92.dir/mfx_SIZEOF___INT64.c.o] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5fe92/fast' failed
+make[2]: *** [cmTC_5fe92/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of fpos_t failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d3e5/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d3e5.dir/build.make CMakeFiles/cmTC_8d3e5.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d3e5.dir/mfx_SIZEOF_FPOS_T.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include    -o CMakeFiles/cmTC_8d3e5.dir/mfx_SIZEOF_FPOS_T.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c:17:22: error: ‘fpos_t’ undeclared here (not in a function); did you mean ‘fd_set’?
+ #define SIZE (sizeof(fpos_t))
+                      ^
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_8d3e5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8d3e5.dir/mfx_SIZEOF_FPOS_T.c.o' failed
+make[3]: *** [CMakeFiles/cmTC_8d3e5.dir/mfx_SIZEOF_FPOS_T.c.o] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8d3e5/fast' failed
+make[2]: *** [cmTC_8d3e5/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CheckTypeSize/mfx_SIZEOF_FPOS_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(fpos_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf851/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cf851.dir/build.make CMakeFiles/cmTC_cf851.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf851.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles/cmTC_cf851.dir/CheckFunctionExists.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘alloca’ [-Wbuiltin-declaration-mismatch]
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_cf851
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf851.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include -DCHECK_FUNCTION_EXISTS=alloca    -rdynamic CMakeFiles/cmTC_cf851.dir/CheckFunctionExists.c.o  -o cmTC_cf851 
+CMakeFiles/cmTC_cf851.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0x20): undefined reference to `alloca'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf851.dir/build.make:97: recipe for target 'cmTC_cf851' failed
+make[3]: *** [cmTC_cf851] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf851/fast' failed
+make[2]: *** [cmTC_cf851/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02365/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_02365.dir/build.make CMakeFiles/cmTC_02365.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02365.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include -DCHECK_FUNCTION_EXISTS=stricmp   -o CMakeFiles/cmTC_02365.dir/CheckFunctionExists.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02365
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02365.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include -DCHECK_FUNCTION_EXISTS=stricmp    -rdynamic CMakeFiles/cmTC_02365.dir/CheckFunctionExists.c.o  -o cmTC_02365 
+CMakeFiles/cmTC_02365.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xc): undefined reference to `stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_02365.dir/build.make:97: recipe for target 'cmTC_02365' failed
+make[3]: *** [cmTC_02365] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02365/fast' failed
+make[2]: *** [cmTC_02365/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strnicmp exists failed with the following output:
+Change Dir: /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93a2c/fast"
+make[2]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_93a2c.dir/build.make CMakeFiles/cmTC_93a2c.dir/build
+make[3]: Entering directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93a2c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include -DCHECK_FUNCTION_EXISTS=strnicmp   -o CMakeFiles/cmTC_93a2c.dir/CheckFunctionExists.c.o   -c /opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93a2c
+/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93a2c.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -I/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/host/include -DCHECK_FUNCTION_EXISTS=strnicmp    -rdynamic CMakeFiles/cmTC_93a2c.dir/CheckFunctionExists.c.o  -o cmTC_93a2c 
+CMakeFiles/cmTC_93a2c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup+0xc): undefined reference to `strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_93a2c.dir/build.make:97: recipe for target 'cmTC_93a2c' failed
+make[3]: *** [cmTC_93a2c] Error 1
+make[3]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_93a2c/fast' failed
+make[2]: *** [cmTC_93a2c/fast] Error 2
+make[2]: Leaving directory '/opt/mscc/mscc-brsdk-source-2019.02.7-232/mscc_stage1_servalt_defconfig/build/host-lzo-2.10/buildroot-build/CMakeFiles/CMakeTmp'
+
+
