@@ -352,6 +352,7 @@ static const struct spi_device_id m25p_ids[] = {
 	{"m25p05-nonjedec"},	{"m25p10-nonjedec"},	{"m25p20-nonjedec"},
 	{"m25p40-nonjedec"},	{"m25p80-nonjedec"},	{"m25p16-nonjedec"},
 	{"m25p32-nonjedec"},	{"m25p64-nonjedec"},	{"m25p128-nonjedec"},
+	{"w25q512jvq"},
 
 	/* Everspin MRAMs (non-JEDEC) */
 	{ "mr25h128" }, /* 128 Kib, 40 MHz */
